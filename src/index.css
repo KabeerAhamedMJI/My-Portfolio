@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212428;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.containers {
+  padding: 40px 120px;
+}
+
+/* Header section */
+
+.Logo_image {
+  width: 70px;
+  border: 3px solid rgb(63, 63, 63);
+  border-radius: 100px;
+  background: linear-gradient(45deg, #212327, #262b30);
+  box-shadow: 17px -17px 34px #1a1c1f, -17px 17px 34px #282c31;
+}
+
+ul li a.active {
+  color: #ffffff;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #212428;
+}
+
+.header.shadow {
+  box-shadow: 0 4px 6px rgba(31, 30, 30, 0.925);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.NavBar {
+  max-width: 1850px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.NavBar div a {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  gap: 15px;
+  text-decoration: none;
+}
+
+.NavBar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 42px;
+  list-style: none;
+  padding-right: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 13.5px;
+  color: rgb(110, 110, 110);
+}
+
+ul li a:hover {
+  color: #ffffff;
+  transition: all ease-out;
+}
+
+#MenuIcon {
+  display: none;
+}
+
+.CallToAction {
+  display: block;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #212327, #262b30);
+  box-shadow: 17px -17px 34px #1a1c1f, -17px 17px 34px #282c31;
+  padding: 13px 8px;
+  color: #ff014f;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 12px;
+  border-radius: 6px;
+  transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.CallToAction:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(45deg, #212327, #262b30);
+  box-shadow: 17px -17px 34px #1a1c1f, -17px 17px 34px #282c31;
+}
+
+/* About section */
+
+.abouts {
+  background: linear-gradient(145deg, #212428, #212428);
+  box-shadow: 20px 20px 50px #171a1d, -20px -20px 50px #171a1d;
+  padding: 35px;
+  border-radius: 13px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.abouts:hover {
+  transform: translateY(-8px);
+
+}
+
+.image-1 {
+  border-radius: 15px;
+  height: 520px;
+}
+
+#aboutIcon{
+  color: #ff014f;
+font-size: 30px;
+}
+
+.abouts2 {
+  background: linear-gradient(145deg, #212428, #212428);
+  box-shadow: 20px 20px 50px #171a1d, -20px -20px 50px #171a1d;
+  padding: 35px;
+  border-radius: 13px;
+}
+
+.transition:hover{
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform: translateY(-8px);
+}
+.CallButton{
+  display: block;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #212327, #262b30);
+  box-shadow: 17px -17px 34px #1a1c1f, -17px 17px 34px #282c31;
+  padding: 14px 30px;
+  color: #ff014f;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 13px;
+  border-radius: 6px;
+  transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.CallButton:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(45deg, #212327, #262b30);
+  box-shadow: 17px -17px 34px #1a1c1f, -17px 17px 34px #282c31;
+}
