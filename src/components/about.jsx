@@ -1,16 +1,16 @@
 import React from 'react';
 
 const about = () => {
-    const myCv = 'images/Kabeer Ahamed - Full-Stack Web Developer.pdf';  
+    const myCv = 'images/Kabeer Ahamed - Full-Stack Web Developer.pdf';
     const cvName = 'Kabeer Ahamed - Full-Stack Web Developer.pdf';
 
     return (
         <section>
-            <div className=' p-16 flex flex-row gap-8'>
-                <div className='transition w-2/4'>
+            <div className='pt-16 pb-16 pl-24 pr-24 flex flex-row gap-8 '>
+                <div className='transition w-2/5 '>
                     <div className='abouts2 p-16'>
-                        <div className="inline-block rounded-full p-2.5" style={{ backgroundColor: 'rgba(255, 1, 95, 0.2)' }}>
-                            <span className="material-symbols-outlined text-white bg-[#e60045] rounded-full p-2.5">
+                        <div className="inline-block rounded-full p-1 sm:p-1.5 md:p-2 lg:p-2.5 xl:p-3" style={{ backgroundColor: 'rgba(255, 1, 95, 0.2)' }}>
+                            <span className="material-symbols-outlined text-white bg-[#e60045] rounded-full p-1 sm:p-0.5 md:p-1 lg:p-1.5 xl:p-2 ">
                                 person
                             </span>
                         </div>
@@ -40,8 +40,8 @@ const about = () => {
                         </div>
                     </div>
                     <div className='abouts2 flex flex-col mt-6'>
-                        <h2 className='text-[#BEBEBE] pb-5'>Download my Curriculum Vitae:</h2>
-                        <div className='flex flex-row items-center gap-8 pt-3'>
+                        <h2 className='text-[#BEBEBE] pb-1'>Download my Curriculum Vitae:</h2>
+                        <div className='flex flex-row items-center gap-8 pt-2'>
                             <a href={myCv} download={cvName}>
                                 <button className="CallButton">DOWNLOAD CV</button>
                             </a>
