@@ -39,10 +39,10 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#features">FEATURES</a>
+            <a href="#features">SKILLS</a>
           </li>
           <li>
-            <a href="#">PORTFOLIO</a>
+            <a href="#">PROJECTS</a>
           </li>
           <li>
             <a href="#">CLIENTS</a>

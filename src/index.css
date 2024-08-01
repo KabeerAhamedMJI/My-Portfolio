@@ -173,3 +173,14 @@ font-size: 30px;
   background: linear-gradient(45deg, #212327, #262b30);
   box-shadow: 17px -17px 34px #1a1c1f, -17px 17px 34px #282c31;
 }
+/* Skills starts here */
+.skills{
+  background: linear-gradient(145deg, #212428, #212428);
+  box-shadow: 20px 20px 50px #171a1d, -20px -20px 50px #171a1d;
+  padding: 35px;
+  border-radius: 13px; 
+}
+.skills:hover{
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform: translateY(-8px);
+}
