@@ -63,8 +63,8 @@ const Skills = () => {
                             </div>
                         )}
                         {activeTab === 'tab2' && (
-                            <div id='dataBox' className='mx-auto rounded-lg p-6 items-center justify-center'>
-                                <div id='imageBox' className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-8 gap-2 p-8">
+                            <div id='dataBox' className='mx-auto rounded-lg p-6 flex flex-col items-center justify-center'>
+                                <div id='imageBox' className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-16 p-8">
                                     <img className='icons' src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-256.png" alt="HTML5" />
                                     <img className='icons' src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png" alt="css" />
                                     <img className='icons' src="https://miro.medium.com/v2/resize:fit:256/1*XR69xeq43LgKB0T_LjZqwQ.png" alt="Javascript" />
@@ -77,15 +77,14 @@ const Skills = () => {
                             </div>
                         )}
                         {activeTab === 'tab3' && (
-                            <div id='dataBox' className='rounded-lg p-6'>
-                                                                <div id='imageBox' className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-8 gap-2 p-8">
+                            <div id='dataBox' className='rounded-lg p-6 flex flex-col items-center justify-center'>
+                                     <div id='imageBox' className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-16 p-8">
                                     <img className='icons' src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_git-512.png" alt="HTML5" />
                                     <img className='icons' src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_photoshop-512.png" alt="css" />
                                     <img className='icons' src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_illustrator-512.png" alt="Javascript" />
-                                    <img className='icons' src="https://cdn2.iconfinder.com/data/icons/job-search-11/64/networking-organization-company-cooperation-resources-512.png" alt="React" />
+                                    <img className='icons' src="https://cdn-icons-png.freepik.com/256/1973/1973681.png?ga=GA1.1.2117793215.1717391871&semt=ais_hybrid" alt="React" />
                                     <img className='icons' src="https://png.pngtree.com/png-clipart/20230916/original/pngtree-google-seo-web-icon-vector-png-image_12256672.png" alt="HTML5" />
-                                    <img className='icons' src="https://cdn-icons-png.flaticon.com/512/5025/5025003.png" alt="HTML5" />
-                                    <img className='icons' src="https://cdn0.iconfinder.com/data/icons/seo-web-4-1/128/Vigor_Social_Media-Campaign-Connection-SEO-SEM-512.png" alt="HTML5" />
+                                   
                                 </div>
                                 <div className='paraBox'>
                                     <p>I leverage Git for version control, Photoshop and Adobe Illustrator for design, and Network Administration for system maintenance. My skills also include Google SEO, Amazon and Flipkart affiliate marketing, and Social Media Management, providing a well-rounded approach to digital and strategic solutions.</p>
@@ -93,9 +92,19 @@ const Skills = () => {
                             </div>
                         )}
                         {activeTab === 'tab4' && (
-                            <div id='dataBox' className='rounded-lg p-6'>
-                                <h3 className='text-xl font-semibold mb-4'>Proffessional Experience</h3>
-                                <p className='text-gray-700'>List your tools and other technologies here, such as Git, Docker, etc.</p>
+                            <div id='dataBox' className='rounded-lg p-2'>
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 p-8">
+                                    <div className='experience'>
+                                        <h3 className='font-bold pb-3'>— E-commerce Executive —</h3>
+                                        <span>January 2020 - January 2022</span>
+                                        <p>Wrote and edited e-commerce content, set standards for product listings, and managed distribution. Supported Media Marketing, PPC, Email Marketing, SEO, Keyword Research, Google Analytics, and Paid Social Media.</p>
+                                    </div>
+                                    <div className='experience'>
+                                        <h3 className='font-bold pb-3'>— IT Administrator —</h3>
+                                        <span>March 2022 - April 2024</span>
+                                        <p>Installed and configured hardware, software, networks, and CCTV. Provided timely technical support, monitored systems, and maintained networks, offering in-person and remote end-user assistance.</p>
+                                    </div>
+                                </div>
                             </div>
                         )}
                     </div>
